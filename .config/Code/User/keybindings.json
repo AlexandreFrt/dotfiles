@@ -1,0 +1,120 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift shift",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl ctrl",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+alt+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch"
+    },
+    {
+        "key": "ctrl+shift+alt+0",
+        "command": "git.pull"
+    },
+    {
+        "key": "ctrl+shift+alt+8",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+shift+alt+1",
+        "command": "workbench.action.openGlobalSettings"
+    },
+    {
+        "key": "ctrl+shift+alt+2",
+        "command": "git.commit"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_1",
+        "command": "git.sync"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_2",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "shift+alt+oem_2",
+        "command": "git-graph.view"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_comma",
+        "command": "workbench.userDataSync.actions.syncNow"
+    },
+    {
+        "key": "shift+alt+oem_8",
+        "command": "codetime.viewDashboard"
+    },
+    {
+        "key": "shift+alt+oem_comma",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_5",
+        "command": "livePreview.start"
+    },
+    {
+        "key": "shift+alt+oem_5",
+        "command": "livePreview.end"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_plus",
+        "command": "workbench.action.chat.history"
+    },
+    {
+        "key": "ctrl+alt+oem_comma",
+        "command": "workbench.action.chat.openModelPicker",
+        "when": "chatIsEnabled && inChatInput"
+    },
+    {
+        "key": "ctrl+alt+oem_period",
+        "command": "-workbench.action.chat.openModelPicker",
+        "when": "chatIsEnabled && inChatInput"
+    },
+    {
+        "key": "shift+alt+oem_3",
+        "command": "workbench.action.chat.insertIntoNewFile"
+    },
+    {
+        "key": "ctrl+alt+oem_3",
+        "command": "workbench.action.chat.clearHistory"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "workbench.action.chat.openInNewWindow"
+    },
+    {
+        "key": "shift+space",
+        "command": "workbench.action.openQuickChat"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-chatEditor.action.acceptHunk",
+        "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
+    },
+]
